@@ -29,7 +29,6 @@
   <fonts name="fonts">
     <font>fonts\fnt_test</font>
     <font>fonts\fnt_main</font>
-    <font>fonts\fnt_main</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -59,11 +58,11 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_init</room>
+    <room>rooms\rm_cutscene</room>
     <room>rooms\rm_boss</room>
     <room>rooms\rm_game</room>
-    <room>rooms\rm_init</room>
     <room>rooms\rm_gameover</room>
-    <room>rooms\rm_cutscene</room>
     <room>rooms\rm_characters</room>
   </rooms>
   <help>
