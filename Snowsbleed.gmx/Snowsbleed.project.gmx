@@ -25,8 +25,11 @@
     <sprite>sprites\spr_vat</sprite>
     <sprite>sprites\spr_slurpee</sprite>
     <sprite>sprites\spr_halo</sprite>
+    <sprite>sprites\spr_menu</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bkg_title</background>
+  </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
     <font>fonts\fnt_test</font>
@@ -58,9 +61,15 @@
     <objects name="Character Infos">
       <object>objects\obj_characterinfo</object>
     </objects>
+    <objects name="Title">
+      <object>objects\obj_menu</object>
+      <object>objects\obj_start</object>
+      <object>objects\obj_quit</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
+    <room>rooms\rm_title</room>
     <room>rooms\rm_cutscene</room>
     <room>rooms\rm_boss</room>
     <room>rooms\rm_game</room>
