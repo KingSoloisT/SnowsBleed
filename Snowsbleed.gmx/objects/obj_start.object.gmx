@@ -29,6 +29,7 @@
 {
     if mouse_check_button(mb_left)
     {
+        audio_stop_all();
         room_goto(rm_game);
     }
 }
