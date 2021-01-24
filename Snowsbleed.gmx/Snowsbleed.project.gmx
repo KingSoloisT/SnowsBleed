@@ -51,6 +51,7 @@
     <object>objects\obj_vat</object>
     <objects name="Cutscene Things">
       <object>objects\Obj_CutsceneIntro</object>
+      <object>objects\obj_gameovertext</object>
       <object>objects\obj_cutsceneoutro</object>
     </objects>
     <objects name="Character Infos">
@@ -61,6 +62,7 @@
     <room>rooms\rm_boss</room>
     <room>rooms\rm_game</room>
     <room>rooms\rm_init</room>
+    <room>rooms\rm_gameover</room>
     <room>rooms\rm_cutscene</room>
     <room>rooms\rm_characters</room>
   </rooms>
