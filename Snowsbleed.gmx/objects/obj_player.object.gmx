@@ -87,7 +87,7 @@ if player_temp &lt;= 30.00 || place_meeting(x,y,obj_bulletL) ||  place_meeting(x
 {
    sprite_index = spr_explode;
     audio_play_sound(sndDamaged, 0, false);
-    room_restart();
+    //room_restart();
     audio_stop_all();
 }
 if player_temp &gt;= 30.00 
@@ -105,6 +105,15 @@ if room = rm_game
     {
         room_goto(rm_boss);
     }
+}
+
+if x&gt;view_xview[0] and y&gt;view_yview[0] and x&lt;view_xview[0]+view_wview[0] and y&lt;view_yview[0]+view_hview[0]
+{
+    
+}
+else
+{
+    sprite_index = spr_explode;
 }
 </string>
           </argument>

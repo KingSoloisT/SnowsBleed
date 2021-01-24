@@ -73,7 +73,16 @@ audio_play_sound(sndEnemyShoot, 0, false);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>move_towards_point(x,obj_player.y,2);
+            <string>if x&gt;view_xview[0] and y&gt;view_yview[0] and x&lt;view_xview[0]+view_wview[0] and y&lt;view_yview[0]+view_hview[0]
+{
+    
+}
+else
+{
+    instance_destroy();
+}
+
+move_towards_point(x,obj_player.y,2);
 
 if place_meeting(x,y,obj_bullet)
 {
