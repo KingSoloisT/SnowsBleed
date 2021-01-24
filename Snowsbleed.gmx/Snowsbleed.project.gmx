@@ -8,6 +8,8 @@
     <sound>sound\sndMainSong</sound>
     <sound>sound\snd_shot</sound>
     <sound>sound\sndInspire</sound>
+    <sound>sound\sndBossMusic</sound>
+    <sound>sound\sndDamaged</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
@@ -68,11 +70,11 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_game</room>
+    <room>rooms\rm_boss</room>
     <room>rooms\rm_init</room>
     <room>rooms\rm_title</room>
     <room>rooms\rm_cutscene</room>
-    <room>rooms\rm_boss</room>
-    <room>rooms\rm_game</room>
     <room>rooms\rm_gameover</room>
     <room>rooms\rm_characters</room>
   </rooms>

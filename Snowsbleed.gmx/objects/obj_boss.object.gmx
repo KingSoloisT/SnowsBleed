@@ -81,6 +81,7 @@ if !instance_exists(obj_vat)
     image_blend = c_white;
     if place_meeting(x,y,obj_bullet)
     {
+        audio_play_sound(sndDamaged, 0, false);
         instance_destroy();
     }
 }

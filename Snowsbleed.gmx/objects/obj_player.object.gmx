@@ -85,6 +85,7 @@ if mouse_check_button_pressed(mb_left)
 
 if player_temp &lt;= 30.00 || place_meeting(x,y,obj_bulletL) ||  place_meeting(x,y,obj_bulletR) ||  place_meeting(x,y,obj_bulletU) ||  place_meeting(x,y,obj_bulletD) ||  place_meeting(x,y,obj_bulletR) ||  place_meeting(x,y,obj_bulletU) ||  place_meeting(x,y,obj_rocket)
 {
+    audio_play_sound(sndDamaged, 0, false);
     room_restart();
     audio_stop_all();
 }
