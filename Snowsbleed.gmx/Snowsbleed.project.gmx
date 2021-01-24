@@ -16,6 +16,17 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_player</object>
+    <object>objects\obj_player_gun</object>
+    <object>objects\obj_bullet</object>
+    <object>objects\obj_bulletL</object>
+    <object>objects\obj_bulletR</object>
+    <object>objects\obj_bulletD</object>
+    <object>objects\obj_bulletU</object>
+    <object>objects\obj_enemy</object>
+    <object>objects\obj_enemyR</object>
+    <object>objects\obj_enemyL</object>
+    <object>objects\obj_enemyU</object>
+    <object>objects\obj_enemyD</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_game</room>
