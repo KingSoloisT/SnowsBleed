@@ -17,12 +17,18 @@
     <sprite>sprites\spr_enemy_3</sprite>
     <sprite>sprites\spr_enemy_4</sprite>
     <sprite>sprites\spr_bullet</sprite>
+    <sprite>sprites\spr_rocket_temp</sprite>
+    <sprite>sprites\spr_explode</sprite>
     <sprite>sprites\spr_gun</sprite>
+    <sprite>sprites\spr_vent</sprite>
     <sprite>sprites\spr_boss</sprite>
+    <sprite>sprites\spr_vat</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <fonts name="fonts">
+    <font>fonts\fnt_test</font>
+    <font>fonts\fnt_main</font>
     <font>fonts\fnt_main</font>
   </fonts>
   <objects name="objects">
@@ -33,12 +39,16 @@
     <object>objects\obj_bulletR</object>
     <object>objects\obj_bulletD</object>
     <object>objects\obj_bulletU</object>
+    <object>objects\obj_rocket</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_enemyR</object>
     <object>objects\obj_enemyL</object>
     <object>objects\obj_enemyU</object>
     <object>objects\obj_enemyD</object>
     <object>objects\obj_SoundController</object>
+    <object>objects\obj_boss</object>
+    <object>objects\obj_vent</object>
+    <object>objects\obj_vat</object>
     <objects name="Cutscene Things">
       <object>objects\Obj_CutsceneIntro</object>
       <object>objects\obj_cutsceneoutro</object>
@@ -48,9 +58,10 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_boss</room>
+    <room>rooms\rm_game</room>
     <room>rooms\rm_init</room>
     <room>rooms\rm_cutscene</room>
-    <room>rooms\rm_game</room>
     <room>rooms\rm_characters</room>
   </rooms>
   <help>
