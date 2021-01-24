@@ -36,12 +36,17 @@
     <object>objects\obj_enemyD</object>
     <objects name="Cutscene Things">
       <object>objects\Obj_CutsceneIntro</object>
+      <object>objects\obj_cutsceneoutro</object>
+    </objects>
+    <objects name="Character Infos">
+      <object>objects\obj_characterinfo</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
     <room>rooms\rm_cutscene</room>
     <room>rooms\rm_game</room>
+    <room>rooms\rm_characters</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
