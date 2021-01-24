@@ -47,7 +47,20 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>
+if (global.PlayerWalking)
+{
+    if !audio_is_playing(sndWalkingSnow)
+    {
+        audio_play_sound(sndWalkingSnow, 1000, true);
+    }
+    audio_resume_sound(sndWalkingSnow);
+}
+else
+{
+    audio_pause_sound(sndWalkingSnow);
+}
+</string>
           </argument>
         </arguments>
       </action>

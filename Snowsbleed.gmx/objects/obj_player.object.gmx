@@ -31,6 +31,10 @@ spd = 5;
 instance_create(x,y,obj_player_gun);
 image_xscale = 2;
 image_yscale = 2;
+
+global.PlayerWalking = false;
+
+instance_create(0,0, obj_SoundController);
 </string>
           </argument>
         </arguments>
@@ -55,25 +59,34 @@ image_yscale = 2;
             <kind>1</kind>
             <string>if !place_meeting(x,y,obj_enemy) 
 {
+    global.PlayerWalking = false;
+    
     if keyboard_check(ord('W'))
     {
+        global.PlayerWalking = true;
         y -= spd;
     }
     
     if keyboard_check(ord('S'))
     {
+        global.PlayerWalking = true;
         y += spd;
     }
     
     if keyboard_check(ord('D'))
     {
+        global.PlayerWalking = true;
         x += spd;
     }
     
     if keyboard_check(ord('A'))
     {
+        global.PlayerWalking = true;
         x -= spd;
     }
+    
+    
+    
 }
 
 if mouse_check_button_pressed(mb_left)
