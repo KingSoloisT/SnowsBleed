@@ -75,11 +75,14 @@ instance_create(x,y,obj_player_gun);
 if mouse_check_button_pressed(mb_left)
 {
     instance_create(x,y,obj_bullet);
+    audio_play_sound(snd_shot, 0, false);
+    
 }
 
 if place_meeting(x,y,obj_bulletL) ||  place_meeting(x,y,obj_bulletR) ||  place_meeting(x,y,obj_bulletU) ||  place_meeting(x,y,obj_bulletD)
 {
     room_restart();
+    audio_stop_all();
 }
 </string>
           </argument>

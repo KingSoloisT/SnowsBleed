@@ -4,7 +4,10 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sndMainSong</sound>
+    <sound>sound\snd_shot</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_player_gun</sprite>
@@ -34,6 +37,7 @@
     <object>objects\obj_enemyL</object>
     <object>objects\obj_enemyU</object>
     <object>objects\obj_enemyD</object>
+    <object>objects\obj_SoundController</object>
     <objects name="Cutscene Things">
       <object>objects\Obj_CutsceneIntro</object>
       <object>objects\obj_cutsceneoutro</object>
