@@ -8,8 +8,6 @@
     <sound>sound\sndMainSong</sound>
     <sound>sound\snd_shot</sound>
     <sound>sound\sndInspire</sound>
-    <sound>sound\sndBossMusic</sound>
-    <sound>sound\sndDamaged</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
@@ -27,11 +25,8 @@
     <sprite>sprites\spr_vat</sprite>
     <sprite>sprites\spr_slurpee</sprite>
     <sprite>sprites\spr_halo</sprite>
-    <sprite>sprites\spr_menu</sprite>
   </sprites>
-  <backgrounds name="background">
-    <background>background\bkg_title</background>
-  </backgrounds>
+  <backgrounds name="background"/>
   <paths name="paths"/>
   <fonts name="fonts">
     <font>fonts\fnt_test</font>
@@ -63,18 +58,12 @@
     <objects name="Character Infos">
       <object>objects\obj_characterinfo</object>
     </objects>
-    <objects name="Title">
-      <object>objects\obj_menu</object>
-      <object>objects\obj_start</object>
-      <object>objects\obj_quit</object>
-    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_game</room>
-    <room>rooms\rm_boss</room>
     <room>rooms\rm_init</room>
-    <room>rooms\rm_title</room>
     <room>rooms\rm_cutscene</room>
+    <room>rooms\rm_boss</room>
     <room>rooms\rm_gameover</room>
     <room>rooms\rm_characters</room>
   </rooms>
