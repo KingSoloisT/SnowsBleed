@@ -10,8 +10,9 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>//AFTER ALL VARIABLES ARE SET
-
+  <code>global.intro = true;
+global.outro = false;
+//AFTER ALL VARIABLES ARE SET
 
 room_goto_next();</code>
   <enableViews>0</enableViews>

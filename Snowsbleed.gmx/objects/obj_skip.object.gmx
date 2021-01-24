@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if position_meeting(mouse_x,mouse_y,obj_quit)
+            <string>if position_meeting(mouse_x,mouse_y,obj_skip)
 {
     if mouse_check_button(mb_left)
     {
-        game_end();
+        room_goto(rm_title);
     }
 }
 </string>
@@ -54,10 +54,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Intro Text
-draw_set_colour(c_red);
+            <string>draw_set_colour(c_red);
 draw_set_font(fnt_main);
-draw_text(400,500,"TOO SCURRED!");
+draw_text(10,10,"BORING!");
 
 </string>
           </argument>
