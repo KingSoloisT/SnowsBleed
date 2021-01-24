@@ -14,6 +14,9 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_main</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_player_gun</object>
@@ -27,8 +30,13 @@
     <object>objects\obj_enemyL</object>
     <object>objects\obj_enemyU</object>
     <object>objects\obj_enemyD</object>
+    <objects name="Cutscene Things">
+      <object>objects\Obj_CutsceneIntro</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_init</room>
+    <room>rooms\rm_cutscene</room>
     <room>rooms\rm_game</room>
   </rooms>
   <help>
